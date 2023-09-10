@@ -1,0 +1,43 @@
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.username {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+p {
+    text-align: center;
+}
+
+.pfp {
+    border: 3px solid #a9a9a9;
+    border-radius: 50%;
+
+    padding: 3px;
+}
+
+.stacks {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    
+    margin-top: 5px;
+    margin-bottom: 1.8rem;
+    gap: 10px;
+}
+
+.social_links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
